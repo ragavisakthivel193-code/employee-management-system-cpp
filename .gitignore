@@ -1,0 +1,24 @@
+# Binaries and Object Files
+*.exe
+*.obj
+*.o
+*.dll
+*.pdb
+*.ilk
+*.idb
+
+# Build Directories
+build/
+bin/
+out/
+.vs/
+.vscode/
+
+# Secrets
+.env
+backend/config/.env
+*.env.local
+
+# Logs
+*.log
+*.tmp

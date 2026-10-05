@@ -1,0 +1,32 @@
+# Binaries and Object Files
+*.exe
+*.obj
+*.o
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ilk
+*.idb
+
+# Build Directories
+build/
+bin/
+out/
+.vs/
+.vscode/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Environment and Secrets (Preserve .env.example)
+.env
+backend/config/.env
+*.env.local
+
+# Logs and Scratch
+*.log
+*.tmp
+*.bak
+scratch/
+test_output/
